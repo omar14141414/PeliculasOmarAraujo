@@ -1,0 +1,115 @@
+#llefiavideo img{
+    width:240px;
+    height: 100px; 
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+
+#barramenu{
+    display: flex; 
+    justify-content: space-between; 
+}
+#navegador nav ul{
+    display: flex; 
+    list-style: none; 
+    padding: 10px; 
+
+}
+#navegador nav ul li{
+padding: 15px; 
+
+}
+#navegador nav ul li a{
+    color: white; 
+    font-size: 20px; 
+}
+
+
+#llefiavideo img{
+    width:200px; 
+    height: 60px; 
+}
+
+#publicidad{
+    display: flex;
+    backdrop-filter: blur(10px);
+    background-image: url(../img/backgroundpelis.jpg);
+    
+}
+#publicidad h2{
+    color: aliceblue;
+    font-size: 70px;
+}
+#publicidad img{
+    width:500px;
+    height: 400px;
+}
+
+#plataformas{
+    display: flex;
+}
+#plataformas img{
+    justify-content: space-between;
+    padding: 10px;
+    width:480px; 
+    height: 240px; 
+    border-style: solid;  
+    border-color: rgb(124, 125, 126); 
+    margin: 65px;
+}
+#peliculas h3{ 
+    color: aliceblue; 
+    font-size: 30PX; 
+}
+
+#terror{
+    display: flex;
+}
+#terror img{
+
+    justify-content: space-between; 
+    padding: 10px;
+    width: 300px; 
+    height: 400px; 
+    border-style: solid;  
+    border-color: rgb(124, 125, 126);  
+
+}
+
+#comedias{
+    display: flex;
+}
+#comedias img{
+
+    justify-content: space-between; 
+    padding: 20px; 
+    width: 300px; 
+    height: 400px;
+    border-style: solid; 
+    border-color: rgb(124, 125, 126);  
+}
+
+#Accion{
+    display: flex;
+}
+#Accion img{
+
+    justify-content: space-between;
+    padding: 20px; 
+    width: 300px;
+    height: 400px; 
+    border-style: solid;  
+    border-color: rgb(124, 125, 126);   
+}
+
+
+#Acercade h1{
+    color: white;
+}
+#formulariopapelis h1{
+    color: white;
+}
